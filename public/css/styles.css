@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    /* font */
+    --roboto-primary: 'Roboto', sans-serif;
+    /* font size */
+    --paragraph: 20px;
+    --title: 24px;
+    --price: 18px;
+    --fontsize16: 16px;
+    /* para ver diseño */
+    --borde: 1px solid black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* a {
+    text-decoration: none;
+    font-family: var(--roboto-primary);
+    font-size: var(--paragraph);
+    color: black;
+    
+}
+* a:hover{
+    font-weight: 700;
+}
+
+
+.header {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+body{
+    display: block;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center; */
+}
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 45px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 45px;
+    
+}
+.miP{
+    padding: 0 150px;
+    
+
+}
+h5{
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida {
+    display: inline-block;
+}
+
+.bienvenida span {
+    text-align: center;
+}
+
+header .input input {
+    width: 40%;
+    display: inline-block;
+}
